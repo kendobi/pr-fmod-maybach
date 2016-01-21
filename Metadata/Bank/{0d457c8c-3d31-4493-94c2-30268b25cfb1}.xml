@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="MasterBank" id="{0d457c8c-3d31-4493-94c2-30268b25cfb1}">
+        <property name="name">
+            <value>maybach-bank</value>
+        </property>
+        <relationship name="buildSettings">
+            <destination>{e7d4192b-66fb-493c-9890-a35106d8a000}</destination>
+        </relationship>
+        <relationship name="folder">
+            <destination>{e360ee85-9666-4731-9939-c3509c9217dd}</destination>
+        </relationship>
+    </object>
+    <object class="MobileBuildSetting" id="{e7d4192b-66fb-493c-9890-a35106d8a000}">
+        <relationship name="compressionSettings">
+            <destination>{e2ee63e7-00f8-4078-b67a-260f25614aac}</destination>
+            <destination>{02095ded-6ed4-44de-9c06-56b3c0bfe335}</destination>
+            <destination>{cc6e89f8-3c54-4e4f-8cfa-b3cd6476cd59}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{e2ee63e7-00f8-4078-b67a-260f25614aac}</destination>
+        </relationship>
+    </object>
+    <object class="PCMCompressionSetting" id="{e2ee63e7-00f8-4078-b67a-260f25614aac}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+        <property name="sampleRate">
+            <value>24000</value>
+        </property>
+    </object>
+    <object class="LossyCompressionSetting" id="{02095ded-6ed4-44de-9c06-56b3c0bfe335}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+        <property name="quality">
+            <value>37</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{cc6e89f8-3c54-4e4f-8cfa-b3cd6476cd59}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+        <property name="sampleRate">
+            <value>24000</value>
+        </property>
+    </object>
+</objects>

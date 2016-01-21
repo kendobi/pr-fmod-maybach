@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{4c3bec1c-4def-4409-9e7f-b17f80a5ce79}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10.549455782312926</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/maybach_bass_01 {3934a402-04b2-4b8c-8308-0302c3cbaa66}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
+        </relationship>
+    </object>
+</objects>

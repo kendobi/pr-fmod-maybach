@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{29203215-ec80-4be6-8bc1-8858661f90c5}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10.549455782312926</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/maybach_strings_01 {6abb9dbd-cc05-453e-92fa-f8b3710e6800}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
+        </relationship>
+    </object>
+</objects>

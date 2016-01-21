@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="Workspace" id="{3ebecbe9-6441-4a5e-8f78-f0d1406feb0f}">
+        <relationship name="profilerSessionFolder">
+            <destination>{0995da07-f1fc-4dc4-839f-668fc1c619bd}</destination>
+        </relationship>
+    </object>
+    <object class="AudioBinManager" id="{8acf9459-2b64-475d-89da-456b78a13c82}">
+        <property name="audioBaseDirectory"/>
+    </object>
+</objects>
