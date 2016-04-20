@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{192d1b76-bf48-440e-b7a0-046954ac9bd0}">
+        <property name="assetPath">
+            <value>maybach_pianoB_01.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,10 +16,7 @@
         <property name="length">
             <value>10.549455782312926</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/maybach_pianoB_01 {09473c11-d956-4bf8-a8c6-d7a7dce30c82}.wav</value>
-        </property>
-        <relationship name="container">
+        <relationship name="masterAssetFolder">
             <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
         </relationship>
     </object>

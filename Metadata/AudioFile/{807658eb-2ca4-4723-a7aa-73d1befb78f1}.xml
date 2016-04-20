@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{807658eb-2ca4-4723-a7aa-73d1befb78f1}">
+        <property name="assetPath">
+            <value>maybach_guitar_01.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,10 +16,7 @@
         <property name="length">
             <value>10.549455782312926</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/maybach_guitar_01 {ae276326-419b-497e-a142-2f4737059a85}.wav</value>
-        </property>
-        <relationship name="container">
+        <relationship name="masterAssetFolder">
             <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
         </relationship>
     </object>

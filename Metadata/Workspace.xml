@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.08.00">
     <object class="Workspace" id="{3ebecbe9-6441-4a5e-8f78-f0d1406feb0f}">
-        <property name="outputFormat">
-            <value>3</value>
-        </property>
         <relationship name="masterEventFolder">
             <destination>{1edd095a-25ca-4bd4-9e7b-e50ae091e59d}</destination>
         </relationship>
@@ -13,16 +10,28 @@
         <relationship name="masterBankFolder">
             <destination>{e360ee85-9666-4731-9939-c3509c9217dd}</destination>
         </relationship>
-        <relationship name="audioBinManager">
-            <destination>{8acf9459-2b64-475d-89da-456b78a13c82}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
         </relationship>
         <relationship name="mixer">
             <destination>{9f259658-8eda-49a7-900a-4845ebc91a7e}</destination>
         </relationship>
-    </object>
-    <object class="AudioBinManager" id="{8acf9459-2b64-475d-89da-456b78a13c82}">
-        <relationship name="masterAudioBinFolder">
-            <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
+        <relationship name="platforms">
+            <destination>{cd6b251a-e144-4d1a-9e16-52ccd17c9335}</destination>
         </relationship>
+    </object>
+    <object class="Platform" id="{cd6b251a-e144-4d1a-9e16-52ccd17c9335}">
+        <property name="hardwareType">
+            <value>1</value>
+        </property>
+        <property name="name">
+            <value>Mobile</value>
+        </property>
+        <property name="subDirectory">
+            <value>Mobile</value>
+        </property>
+        <property name="speakerFormat">
+            <value>3</value>
+        </property>
     </object>
 </objects>

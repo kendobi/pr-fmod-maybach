@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{f590bf67-38b3-4eed-b2a6-9837e927ab32}">
+        <property name="assetPath">
+            <value>maybach_chime_01.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,10 +13,7 @@
         <property name="length">
             <value>10.549455782312926</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/maybach_chime_01 {54f05092-2f1b-4a96-b77e-641cc67196bb}.wav</value>
-        </property>
-        <relationship name="container">
+        <relationship name="masterAssetFolder">
             <destination>{0578967e-f7df-490b-a67e-508d9d2dbef0}</destination>
         </relationship>
     </object>
